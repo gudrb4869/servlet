@@ -10,7 +10,6 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/springmvc/v3/members")
-
 public class SpringMemberControllerV3 {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
